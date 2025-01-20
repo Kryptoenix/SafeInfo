@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Server-SafeInfo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Server_SafeInfo_jar</output-path>
+    <root id="archive" name="Server-SafeInfo.jar">
+      <element id="module-output" name="Server-SafeInfo" />
+    </root>
+  </artifact>
+</component>

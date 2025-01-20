@@ -1,0 +1,14 @@
+[2024-12-16T10:27:43.725864Z] : org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:503)
+	at org.json.JSONObject.<init>(JSONObject.java:213)
+	at org.json.JSONObject.<init>(JSONObject.java:430)
+	at Service.ForgotPassword.handleForgotPasswordRequest(ForgotPassword.java:46)
+	at Service.Controller.lambda$processRequest$0(Controller.java:66)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1848)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1840)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1458)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2034)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:189)
+
+
